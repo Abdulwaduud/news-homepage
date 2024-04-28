@@ -1,0 +1,166 @@
+html, body, * {
+    width: 100%;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Inter;
+    font-size: 10px;
+    padding: 1rem;
+}
+
+#img_container {
+    width: 30%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.navbar {
+    /* height: 5rem; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.nav_menu {
+    list-style: none;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#hero_mobile {
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#hero_section1 h1 {
+    width: 100%;
+    font-size: 4rem;
+    font-weight: 700;
+    display: inline-block;
+    white-space: normal;
+}
+
+#hero_section1 p {
+    font-size: 2rem;
+}
+
+.logo_container {
+    width: 5rem;
+}
+
+.logo_container img {
+    width: 5rem;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+
+.section3 h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: hsl(233, 8%, 79%);
+}
+
+.section3 h4 {
+    font-weight: 700;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.section3 p {
+    color: hsl(233, 8%, 79%);
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1;
+    line-break: loose;
+}
+
+.Tab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    /* border: 3px solid red; */
+}
+
+.tab_img {
+    width: 35%;
+    height: auto;
+    padding-right: 1rem;
+}
+
+.tab_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.tab_text {
+    display: flex;
+    flex-grow: 2;
+    width: 60%;
+    height: 10rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+
+
+
+@media (min-width: 450px) {
+    .nav_menu {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .nav_menu li {
+        margin-right: 1rem;
+    }
+
+    .menu_icon {
+        display: none;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: row;
+    }
+}
